@@ -1,4 +1,5 @@
 .reviews-title {
+  padding-bottom: 25px;
   font-weight: 500;
   font-size: 48px;
   line-height: 1;
@@ -15,10 +16,23 @@
 }
 
 .reviews-card {
+  border-radius: 24px;
+padding: 32px 28px;
+width: 376px;
+height: 282px;
   background-color: #fbfbfb;
 }
 
+.reviews-list{
+   display: flex;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  gap: 26px;
+}
+
 .reviews-card-title {
+  padding-top: 24px;
+  padding-bottom: 8px;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.1;
@@ -31,4 +45,20 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: #989899;
+}
+
+.div-review-title {
+  padding-left: 163px;
+  padding-right: 163px;
+  padding-top: 75px;
+}
+
+.img-review {
+  margin: 0px auto;
+border-radius: 72px;
+}
+
+.text-div-review {
+  width: 320px;
+height: 138px;
 }
